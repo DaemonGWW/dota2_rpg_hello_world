@@ -1,7 +1,7 @@
 # 目录
-maps/
-materials/
-particles/
+game/dota2_rpg_hello_world/maps/
+game/dota2_rpg_hello_world/materials/
+game/dota2_rpg_hello_world/particles/
 
 # 后缀
 *.bin
