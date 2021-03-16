@@ -1,5 +1,3 @@
--- Generated from template
-
 if CAddonTemplateGameMode == nil then
 	CAddonTemplateGameMode = class({})
 end
@@ -25,7 +23,6 @@ function CAddonTemplateGameMode:InitGameMode()
 	GameRules:GetGameModeEntity():SetThink( "OnThink", self, "GlobalThink", 2 )
 end
 
--- Evaluate the state of the game
 function CAddonTemplateGameMode:OnThink()
 	print("[{==="..GameRules:GetGameTime().."}]")
 	if GameRules:State_Get() == DOTA_GAMERULES_STATE_GAME_IN_PROGRESS then

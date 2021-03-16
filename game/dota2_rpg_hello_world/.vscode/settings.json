@@ -1,0 +1,8 @@
+{
+    "Lua.diagnostics.globals": [
+        "GameRules",
+        "DOTA_GAMERULES_STATE_GAME_IN_PROGRESS",
+        "DOTA_GAMERULES_STATE_POST_GAME",
+        "class"
+    ]
+}
